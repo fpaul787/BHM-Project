@@ -12,22 +12,22 @@ const App = () => {
 
   const nextProperty = () => {
     const newIndex = property.index + 1
-    setProperty(data.properties[newIndex])
+    setProperty(properties[newIndex])
   }
 
   const prevProperty = () => {
     const newIndex = property.index - 1
-    setProperty(data.properties[newIndex])
+    setProperty(properties[newIndex])
   }
 
   return (
     
     <div className="App">
       
+      <button onClick={() => prevProperty}
+        disabled={property.index === properties.length -1}>Previous</button> 
       <button onClick={() => nextProperty}
-        disabled={property.index === data.properties.length -1}>Previous</button> 
-      <button onClick={() => nextProperty}
-        disabled={property.index === data.properties.length -1}>Next</button>      
+        disabled={property.index === properties.length -1}>Next</button>      
         
       <div className="page">
         <section>
