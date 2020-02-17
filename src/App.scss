@@ -1,0 +1,34 @@
+$HeaderColor: green;
+
+body{
+    background-color: rgb(29, 12, 12);
+}
+
+.App-header{
+
+    color: $HeaderColor;
+    font-size: 2em;
+    text-align: center;
+    
+}
+
+/* stretch cards next to each other*/
+.cards-slider{
+    position: relative;
+    max-width: 226px;
+    margin: auto auto;
+
+    // border for active property
+    &:after {
+        content: '';
+        display: block;
+        width: 150%;        
+        height: 264px;
+        outline: 10px solid brown;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+
