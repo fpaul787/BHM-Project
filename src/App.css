@@ -14,8 +14,8 @@ body {
   .cards-slider:after {
     content: '';
     display: block;
-    width: 150%;
-    height: 264px;
+    width: 75%;
+    height: 95%;
     outline: 10px solid brown;
     position: absolute;
     top: 0;

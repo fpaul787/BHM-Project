@@ -21,8 +21,8 @@ const Card = ({property}) => {
     
     return(
         
-        <div id={`card-${index}`} className="card">
-            <img src={require(`${picture}`)} alt={name}/>            
+        <div id={`card-${index}`} className="card"> 
+            <img src="https://projectphotos.blob.core.windows.net/photos/bellhooks.jpg" alt={name}/>         
         </div>
     )
 }
