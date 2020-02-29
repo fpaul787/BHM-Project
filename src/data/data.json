@@ -4,7 +4,13 @@
 			"_key": "1",
 			"index": "0",
 			"name": "Bell Hooks",
-			"picture": "./images/bellhooks.jpg"
+			"picture": "https://projectphotos.blob.core.windows.net/photos/bellhooks.jpg"
+		},
+		{
+			"_key": "2",
+			"index": "1",
+			"name": "BELL HOOKS",
+			"picture": "https://projectphotos.blob.core.windows.net/photos/bellhooks.jpg"
 		}
 	]
 }

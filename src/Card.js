@@ -18,11 +18,11 @@ const Card = ({property}) => {
     // }, [property])
     
 
-    
+    console.log(name)
     return(
         
         <div id={`card-${index}`} className="card"> 
-            <img src="https://projectphotos.blob.core.windows.net/photos/bellhooks.jpg" alt={name}/>         
+            <img src={picture} alt={name}/>         
         </div>
     )
 }

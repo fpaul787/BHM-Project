@@ -40,7 +40,6 @@ const App = () => {
           <div className="cards-slider">
             <div className="cards-slider-wrapper"> 
               <Card property={property}>
-
               </Card>
             </div>
           </div>
