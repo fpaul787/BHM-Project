@@ -1,0 +1,11 @@
+#which version of docker compose syntax
+version: '3'
+
+services:
+    web:
+      build: . # build from current directory
+      command: npm run start  # start server
+      volumes:
+        - .:/code 
+      ports:
+        - "8080:8080"
