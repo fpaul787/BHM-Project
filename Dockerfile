@@ -16,12 +16,14 @@ RUN npm install
 # RUN npm ci --only=production
 
 # bundle app's source code inside the Docker image, use COPY instruction
-COPY . .
-
-EXPOSE 8000
+COPY . ./
 
 #define commands you want to run
 CMD ["npm", "run", "start"]
 
 # Build your image
 # docker build --tag bhm . <------- DON'T FORGET THE PERIOD
+
+
+# Run your image
+# docker run -d -p 8000:8000 (image name)
