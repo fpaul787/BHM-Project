@@ -1,22 +1,27 @@
 body {
-  background-color: #1d0c0c; }
+  background-color: #1d0c0c;
+}
 
 .App-header {
   color: green;
   font-size: 2em;
-  text-align: center; }
+  text-align: center;
+}
 
 /* stretch cards next to each other*/
 .cards-slider {
   position: relative;
   max-width: 226px;
-  margin: auto auto; }
-  .cards-slider:after {
-    content: '';
-    display: block;
-    width: 75%;
-    height: 95%;
-    outline: 10px solid brown;
-    position: absolute;
-    top: 0;
-    left: 0; }
+  margin: auto auto;
+}
+
+.cards-slider:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*# sourceMappingURL=App.css.map */
