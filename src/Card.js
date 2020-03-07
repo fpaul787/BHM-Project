@@ -22,7 +22,8 @@ const Card = ({property}) => {
     return(
         
         <div id={`card-${index}`} className="card"> 
-            <img src={picture} alt={name}/>         
+            <img src={picture} alt={name}/>
+            <h2>{name}</h2>         
         </div>
     )
 }
