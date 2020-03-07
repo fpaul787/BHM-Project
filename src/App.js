@@ -36,15 +36,18 @@ const App = () => {
       <div className="page">
         <section>
         <h1 className="App-header">
-          Black History Month Project
+          Prominent Women in Black History
         </h1>
         </section>
         
-        <div className="col">
+        <div className={`cards-slider active-slide-${property.index}`}>
           <div className="cards-slider">
-            <div className="cards-slider-wrapper"> 
-              <Card property={property}>
-              </Card>
+            <div className="cards-slider-wrapper" style={{
+              'transform': `translateX(-${property.index*(100/properties.length)}%)`
+            }}> 
+              {
+                properties.map(property => <Card key={property._key} property={property} />)
+              }
             </div>
           </div>
         </div>
