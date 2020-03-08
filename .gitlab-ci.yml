@@ -3,6 +3,7 @@ image: node:10 #default node image
 #stages
 stages:
   - test
+  - build
 
 
 # demo_job_1:
