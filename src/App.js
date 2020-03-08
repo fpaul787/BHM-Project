@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './css/App.css';
-import Card from './Card'
+import Card from './components/Card'
 import data from './data/data.json'
 
 
