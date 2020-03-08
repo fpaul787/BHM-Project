@@ -1,3 +1,18 @@
+image: node:10 #default node image
+
+#stages
+stages:
+  - test
+
+
 demo_job_1:
+  stage: test
   script:
     - echo Hello World
+
+test website:
+  stage: test
+  script:
+    - npm install
+    - npm run start
+    - curl "http://localhost:9000"
