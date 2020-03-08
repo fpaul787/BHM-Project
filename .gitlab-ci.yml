@@ -5,10 +5,10 @@ stages:
   - test
 
 
-demo_job_1:
-  stage: test
-  script:
-    - echo Hello World
+# demo_job_1:
+#   stage: test
+#   script:
+#     - echo Hello World
 
 test website:
   stage: test
