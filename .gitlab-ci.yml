@@ -15,5 +15,5 @@ test website:
   script:
     - npm install # install npm in docker image
     - npm run start &
-    - sleep 3
+    - sleep 2
     - curl "http://localhost:3000" | grep -q "Women"
