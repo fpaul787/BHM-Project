@@ -24,15 +24,19 @@ const App = () => {
     setProperty(properties[newIndex])
   }
 
-  console.log(property.index)
+
   return (
     
     
-    <div className="App">      
+    <div >      
+
+      <div className="nav-buttons">
       <button onClick={prevProperty}
         disabled={Number(property.index) === 0}>Previous</button> 
       <button onClick={nextProperty}
-        disabled={Number(property.index) === properties.length -1}>Next</button>      
+        disabled={Number(property.index) === properties.length -1}>Next</button>
+      </div>
+      
         
       <div className="page">
         <section>
