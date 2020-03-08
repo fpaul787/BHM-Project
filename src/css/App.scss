@@ -42,6 +42,10 @@ $i: 0;
 			color: white;
 			font-size: x-large;
 		}
+
+		h3 {
+			color: white;
+		}
 	}
 }
 
@@ -64,10 +68,10 @@ $i: 0;
 	}
 
 	// for our images
-	// img {
-	// 	width: 100%;
-	// 	height: auto;
-	// }
+	img {
+		width: 100%;
+		height: auto;
+	}
 }
 
 .nav-buttons {
@@ -96,6 +100,8 @@ $i: 0;
 	}
 
 	button:disabled {
-		background-color: white;
+		background: transparent;
+		border: none !important;
+		font-size: 0;
 	}
 }

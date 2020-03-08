@@ -4,13 +4,33 @@
 			"_key": "1",
 			"index": "0",
 			"name": "Bell Hooks",
-			"picture": "https://projectphotos.blob.core.windows.net/photos/bellhooks.jpg"
+			"picture": "https://projectphotos.blob.core.windows.net/photos/bellhooks.jpg",
+			"bio": [
+				"bell hooks is an acclaimed intellectual, feminist theorist cultural critic, artist, and writer.",
+				"Hooks has authored over three dozen books and has published works that span several genres",
+				"This list of genres include cultural criticism, personal memoirs, poetry collections, and children's books.",
+				"Her writings cover topics of gender, race, class, spirituality, teaching, and the significance of media in contemporary culture."
+			]
 		},
 		{
 			"_key": "2",
 			"index": "1",
 			"name": "Zora Neale Hurston",
-			"picture": "https://projectphotos.blob.core.windows.net/photos/zora_neale_hurston.jpg"
+			"picture": "https://projectphotos.blob.core.windows.net/photos/zora_neale_hurston.jpg",
+			"bio": [
+				"Zora Neale Hurston was an American author, anthropologist, and filmmaker. ",
+				"She portrayed racial struggles in the early-1700s American South and published research on hoodoo.",
+				"The most popular of her four novels is Their Eyes Were Watching God, published in 1937."
+			]
+		},
+		{
+			"_key": "3",
+			"index": "2",
+			"name": "Katherine Johnson",
+			"picture": "https://projectphotos.blob.core.windows.net/photos/katherinejohnson.jpg",
+			"bio": [
+				"American mathematician whose calculations of orbital mechanics as a NASA employee were critical to the success of the first and subsequent U.S. crewed spaceflights."
+			]
 		}
 	]
 }

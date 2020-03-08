@@ -6,6 +6,7 @@ const Card = ({property}) => {
     var index
     var name
     var picture
+    var bio
     
     if(property == null){
         index = -1
@@ -15,12 +16,15 @@ const Card = ({property}) => {
         index = property.index
         name = property.name
         picture = property.picture
+        bio = property.bio
+
     }
     
     return(        
         <div id={`card-${index}`} className="card"> 
             <img src={picture} alt={name}/>
-            <h2>{name}</h2>         
+            <h2>{name}</h2>
+            <h3>{bio[0]}</h3>         
         </div>
     )
 }
