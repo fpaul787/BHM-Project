@@ -11,27 +11,28 @@ const App = () => {
   
 
   const nextProperty = () => {
-    let newIndex = +property.index + +1
-    
-    
+    // Number wrapper object which allows
+    // you to work with numerical values
+
+    let newIndex = Number(property.index) + 1    
     setProperty(properties[newIndex])
-    console.log(newIndex)
   }
 
   const prevProperty = () => {
-    let newIndex = +property.index - +1
-    
-        
+
+    let newIndex = Number(property.index) - 1        
     setProperty(properties[newIndex])
   }
 
+  console.log(property.index)
   return (
+    
     
     <div className="App">      
       <button onClick={prevProperty}
-        disabled={property.index === properties.length -1}>Previous</button> 
+        disabled={Number(property.index) === 0}>Previous</button> 
       <button onClick={nextProperty}
-        disabled={property.index === properties.length -1}>Next</button>      
+        disabled={Number(property.index) === properties.length -1}>Next</button>      
         
       <div className="page">
         <section>

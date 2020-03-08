@@ -17,8 +17,6 @@ const Card = ({property}) => {
     //     setPicture(property.picture)
     // }, [property])
     
-
-    console.log(name)
     return(
         
         <div id={`card-${index}`} className="card"> 
