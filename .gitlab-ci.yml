@@ -13,6 +13,6 @@ demo_job_1:
 test website:
   stage: test
   script:
-    - npm install
+    - npm install # install npm in docker image
     - npm run start
-    - curl "http://localhost:9000"
+    - curl "http://localhost:9000" | grep -q "Women"
