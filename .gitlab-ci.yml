@@ -14,5 +14,6 @@ test website:
   stage: test
   script:
     - npm install # install npm in docker image
-    - npm run start
-    - curl "http://localhost:9000" | grep -q "Women"
+    - npm run start &
+    - sleep 3
+    - curl "http://localhost:3000" | grep -q "Women"
