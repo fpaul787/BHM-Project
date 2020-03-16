@@ -24,7 +24,10 @@ const Card = ({property}) => {
         <div id={`card-${index}`} className="card"> 
             <img src={picture} alt={name}/>
             <h2>{name}</h2>
-            <h3>{bio[0]}</h3>         
+            {
+                bio.map(b => <h3>{b}</h3>)
+            }
+                    
         </div>
     )
 }
