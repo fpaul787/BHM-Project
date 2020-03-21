@@ -8,6 +8,8 @@ const Card = ({property}) => {
     var picture
     var bio
     
+    
+    
     if(property == null){
         index = -1
         name = "Test Image"
@@ -20,15 +22,17 @@ const Card = ({property}) => {
 
     }
     
-    return(        
+    return(      
+        <React.Fragment> 
         <div id={`card-${index}`} className="card"> 
             <img src={picture} alt={name}/>
             <h2>{name}</h2>
             {
                 bio.map(b => <h3>{b}</h3>)
             }
-                    
-        </div>
+            <a target="_blank" className="more-info" href={property.link}>Click for more info</a>            
+        </div>       
+        </React.Fragment> 
     )
 }
 Card.propTypes = {

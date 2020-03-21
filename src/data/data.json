@@ -7,10 +7,11 @@
 			"picture": "https://projectphotos.blob.core.windows.net/photos/bellhooks.jpg",
 			"bio": [
 				"bell hooks is an acclaimed intellectual, feminist theorist cultural critic, artist, and writer.",
-				"Hooks has authored over three dozen books and has published works that span several genres",
+				"hooks has authored over three dozen books and has published works that span several genres",
 				"This list of genres include cultural criticism, personal memoirs, poetry collections, and children's books.",
 				"Her writings cover topics of gender, race, class, spirituality, teaching, and the significance of media in contemporary culture."
-			]
+			],
+			"link": "http://www.bellhooksinstitute.com/"
 		},
 		{
 			"_key": "2",
@@ -19,9 +20,12 @@
 			"picture": "https://projectphotos.blob.core.windows.net/photos/zora_neale_hurston.jpg",
 			"bio": [
 				"Zora Neale Hurston was an American author, anthropologist, and filmmaker. ",
+				"Zora wrote fiction acout contemporary issues in the black community and became a central figure of the Harlem Renaissance.",
 				"She portrayed racial struggles in the early-1700s American South and published research on hoodoo.",
-				"The most popular of her four novels is Their Eyes Were Watching God, published in 1937."
-			]
+				"The most popular of her four novels is Their Eyes Were Watching God, published in 1937.",
+				"She has written more than 50 short stories, and essays"
+			],
+			"link": "https://www.zoranealehurston.com/"
 		},
 		{
 			"_key": "3",
@@ -29,8 +33,11 @@
 			"name": "Katherine Johnson",
 			"picture": "https://projectphotos.blob.core.windows.net/photos/katherinejohnson.jpg",
 			"bio": [
-				"American mathematician whose calculations of orbital mechanics as a NASA employee were critical to the success of the first and subsequent U.S. crewed spaceflights."
-			]
+				"Mathematician whose calculations of orbital mechanics as a NASA employee were critical to the success of the first and subsequent U.S. crewed spaceflights.",
+				"Johnson calculated and analyzed the flight paths of many spacecraft during three decades with the U.S space program",
+				"Johnson's work helped send astronauts to the Moon."
+			],
+			"link": "https://www.nasa.gov/content/katherine-johnson-biography"
 		}
 	]
 }

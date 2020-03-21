@@ -39,6 +39,14 @@ body {
   font-size: small;
 }
 
+.cards-slider-wrapper h3 {
+  color: #1d0c0c;
+}
+
+.cards-slider-wrapper a {
+  color: #1d0c0c;
+}
+
 .cards-slider.active-slide-0 #card-0 {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -52,6 +60,11 @@ body {
 
 .cards-slider.active-slide-0 #card-0 h3 {
   color: white;
+}
+
+.cards-slider.active-slide-0 #card-0 .more-info {
+  color: red;
+  font-size: x-large;
 }
 
 .cards-slider.active-slide-1 #card-1 {
@@ -69,6 +82,11 @@ body {
   color: white;
 }
 
+.cards-slider.active-slide-1 #card-1 .more-info {
+  color: red;
+  font-size: x-large;
+}
+
 .cards-slider.active-slide-2 #card-2 {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -82,6 +100,11 @@ body {
 
 .cards-slider.active-slide-2 #card-2 h3 {
   color: white;
+}
+
+.cards-slider.active-slide-2 #card-2 .more-info {
+  color: red;
+  font-size: x-large;
 }
 
 /* stretch cards next to each other*/

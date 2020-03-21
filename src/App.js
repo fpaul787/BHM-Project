@@ -6,7 +6,7 @@ import data from './data/data.json'
 
 const App = () => {
   
-  const [properties, setProperties] = useState(data.properties)
+  const properties = data.properties
   const [property, setProperty] = useState(data.properties[0])
   
 
