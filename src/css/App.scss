@@ -44,7 +44,7 @@ body {
 
 // SASS loop to loop over the cards
 $i: 0;
-@for $i from 0 through 2 {
+@for $i from 0 through 6 {
 	.cards-slider.active-slide-#{$i} #card-#{$i} {
 		opacity: 1;
 		transform: scale(1);
@@ -61,6 +61,8 @@ $i: 0;
 			color: red;
 			font-size: x-large;
 		}
+
+		overflow: auto;
 	}
 }
 
