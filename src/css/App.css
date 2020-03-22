@@ -54,13 +54,19 @@ body {
   overflow: auto;
 }
 
-.cards-slider.active-slide-0 #card-0 h2 {
+.cards-slider.active-slide-0 #card-0 .name {
   color: white;
   font-size: x-large;
 }
 
-.cards-slider.active-slide-0 #card-0 h3 {
+.cards-slider.active-slide-0 #card-0 .bio {
   color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cards-slider.active-slide-0 #card-0 h4 {
+  color: orange;
+  font-size: large;
 }
 
 .cards-slider.active-slide-0 #card-0 .more-info {
@@ -75,13 +81,19 @@ body {
   overflow: auto;
 }
 
-.cards-slider.active-slide-1 #card-1 h2 {
+.cards-slider.active-slide-1 #card-1 .name {
   color: white;
   font-size: x-large;
 }
 
-.cards-slider.active-slide-1 #card-1 h3 {
+.cards-slider.active-slide-1 #card-1 .bio {
   color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cards-slider.active-slide-1 #card-1 h4 {
+  color: orange;
+  font-size: large;
 }
 
 .cards-slider.active-slide-1 #card-1 .more-info {
@@ -96,13 +108,19 @@ body {
   overflow: auto;
 }
 
-.cards-slider.active-slide-2 #card-2 h2 {
+.cards-slider.active-slide-2 #card-2 .name {
   color: white;
   font-size: x-large;
 }
 
-.cards-slider.active-slide-2 #card-2 h3 {
+.cards-slider.active-slide-2 #card-2 .bio {
   color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cards-slider.active-slide-2 #card-2 h4 {
+  color: orange;
+  font-size: large;
 }
 
 .cards-slider.active-slide-2 #card-2 .more-info {
@@ -117,13 +135,19 @@ body {
   overflow: auto;
 }
 
-.cards-slider.active-slide-3 #card-3 h2 {
+.cards-slider.active-slide-3 #card-3 .name {
   color: white;
   font-size: x-large;
 }
 
-.cards-slider.active-slide-3 #card-3 h3 {
+.cards-slider.active-slide-3 #card-3 .bio {
   color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cards-slider.active-slide-3 #card-3 h4 {
+  color: orange;
+  font-size: large;
 }
 
 .cards-slider.active-slide-3 #card-3 .more-info {
@@ -138,13 +162,19 @@ body {
   overflow: auto;
 }
 
-.cards-slider.active-slide-4 #card-4 h2 {
+.cards-slider.active-slide-4 #card-4 .name {
   color: white;
   font-size: x-large;
 }
 
-.cards-slider.active-slide-4 #card-4 h3 {
+.cards-slider.active-slide-4 #card-4 .bio {
   color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cards-slider.active-slide-4 #card-4 h4 {
+  color: orange;
+  font-size: large;
 }
 
 .cards-slider.active-slide-4 #card-4 .more-info {
@@ -159,13 +189,19 @@ body {
   overflow: auto;
 }
 
-.cards-slider.active-slide-5 #card-5 h2 {
+.cards-slider.active-slide-5 #card-5 .name {
   color: white;
   font-size: x-large;
 }
 
-.cards-slider.active-slide-5 #card-5 h3 {
+.cards-slider.active-slide-5 #card-5 .bio {
   color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cards-slider.active-slide-5 #card-5 h4 {
+  color: orange;
+  font-size: large;
 }
 
 .cards-slider.active-slide-5 #card-5 .more-info {
@@ -180,13 +216,19 @@ body {
   overflow: auto;
 }
 
-.cards-slider.active-slide-6 #card-6 h2 {
+.cards-slider.active-slide-6 #card-6 .name {
   color: white;
   font-size: x-large;
 }
 
-.cards-slider.active-slide-6 #card-6 h3 {
+.cards-slider.active-slide-6 #card-6 .bio {
   color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cards-slider.active-slide-6 #card-6 h4 {
+  color: orange;
+  font-size: large;
 }
 
 .cards-slider.active-slide-6 #card-6 .more-info {

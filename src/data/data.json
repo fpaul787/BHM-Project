@@ -4,6 +4,7 @@
 			"_key": "1",
 			"index": "0",
 			"name": "Bell Hooks",
+			"years": "(1952 - current)",
 			"picture": "https://projectphotos.blob.core.windows.net/photos/bellhooks.jpg",
 			"bio": [
 				"bell hooks is an acclaimed intellectual, feminist theorist cultural critic, artist, and writer.",
@@ -17,6 +18,7 @@
 			"_key": "2",
 			"index": "1",
 			"name": "Zora Neale Hurston",
+			"years": "(1891 - 1960)",
 			"picture": "https://projectphotos.blob.core.windows.net/photos/zora_neale_hurston.jpg",
 			"bio": [
 				"Zora Neale Hurston was an American author, anthropologist, and filmmaker. ",
@@ -31,6 +33,7 @@
 			"_key": "3",
 			"index": "2",
 			"name": "Katherine Johnson",
+			"years": "(1918 - 2020)",
 			"picture": "https://projectphotos.blob.core.windows.net/photos/katherinejohnson.jpg",
 			"bio": [
 				"Mathematician whose calculations of orbital mechanics as a NASA employee were critical to the success of the first and subsequent U.S. crewed spaceflights.",
@@ -43,6 +46,7 @@
 			"_key": "4",
 			"index": "3",
 			"name": "Audre Lorde",
+			"years": "(1934 - 1992)",
 			"picture": "https://projectphotos.blob.core.windows.net/photos/audre_lorge.jpg",
 			"bio": [
 				"Writer, feminist, librarian, and civil rights activist.",
@@ -55,6 +59,7 @@
 			"_key": "5",
 			"index": "4",
 			"name": "Marsha P. Johnson",
+			"years": "(1945 - 1992)",
 			"picture": "https://projectphotos.blob.core.windows.net/photos/marsha_johnson.jpg",
 			"bio": [
 				"Outspoken and fearless trans woman who played a vital part in the fight for civil rights for the LGBT community in New York",
@@ -69,6 +74,7 @@
 			"_key": "6",
 			"index": "5",
 			"name": "Ida B. Well-Barnett",
+			"years": "(1862 - 1931)",
 			"picture": "https://projectphotos.blob.core.windows.net/photos/ida_b_wells.jpg",
 			"bio": [
 				"Abolitionist, journalist and activist who led an anti-lynching crusade in the United States in the 1890s",
@@ -82,6 +88,7 @@
 			"_key": "7",
 			"index": "6",
 			"name": "Mary McLeod Bethune",
+			"years": "(1875 – 1955)",
 			"picture": "https://projectphotos.blob.core.windows.net/photos/mary_mcleod_bethune.jpg",
 			"bio": [
 				"Mary McLeod Bethune was an educator and activist, serving as president of the National Association of Colored Women and founding the National Council of Negro Women",

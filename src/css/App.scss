@@ -48,15 +48,20 @@ $i: 0;
 	.cards-slider.active-slide-#{$i} #card-#{$i} {
 		opacity: 1;
 		transform: scale(1);
-		h2 {
+		.name {
 			color: white;
 			font-size: x-large;
 		}
 
-		h3 {
+		.bio {
 			color: white;
+			font-family: "Times New Roman", Times, serif;
 		}
 
+		h4 {
+			color: orange;
+			font-size: large;
+		}
 		.more-info {
 			color: red;
 			font-size: x-large;

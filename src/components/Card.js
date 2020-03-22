@@ -3,10 +3,11 @@ import PropTypes from 'prop-types'
 
 
 const Card = ({property}) => {
-    var index
-    var name
-    var picture
-    var bio
+    var index   // index of property in json file
+    var name    // name of property    
+    var picture // link to picture for property
+    var bio     // bio for property
+    var years   // (BirthDate - DateofDeath)
     
     
     
@@ -19,7 +20,7 @@ const Card = ({property}) => {
         name = property.name
         picture = property.picture
         bio = property.bio
-
+        years = property.years
     }
     
     // in order to get the right amount of cards to show up,
@@ -29,10 +30,10 @@ const Card = ({property}) => {
         <React.Fragment> 
         <div id={`card-${index}`} className="card"> 
             <img src={picture} alt={name}/>
-            <h2>{name}</h2>
-            
+            <h2 className="name">{name}</h2>
+            <h4>{years}</h4>
             {
-                bio.map(b => <h3>{b}</h3>)
+                bio.map(b => <h3 className="bio">{b}</h3>)
             }
             <a target="_blank" rel="noopener noreferrer" className="more-info" href={property.link}>Click for more info</a>            
         </div>       
