@@ -1,24 +1,15 @@
-# https://nodejs.org/de/docs/guides/nodejs-docker-webapp/s
+# https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 #base image
 FROM node:10
 
 # Create app directory
-WORKDIR /usr/src/app
+WORKDIR /app
 
-
-# Install app dependencies
-# A wildcard is used to ensure both package.jso AND package-lock.json are copied
-# where available (npm@5+)
-COPY package*.json ./
+COPY . .
 
 RUN npm install
-# for production
-# RUN npm ci --only=production
+RUN npm install react-scripts -g
 
-# bundle app's source code inside the Docker image, use COPY instruction
-COPY . ./
-
-EXPOSE 80 
 #define commands you want to run
 CMD ["npm", "run", "start"]
 
@@ -26,5 +17,7 @@ CMD ["npm", "run", "start"]
 # docker build --tag bhm . <------- DON'T FORGET THE PERIOD
 
 
-# Run your image
-# docker run -d -p 8000:8000 (image name)
+# Run your image w/o a name
+# docker run -d -p 3000:3000 (image name)
+
+#docker run --name [CUSTOM CONTAINER NAME] -p 3000:3000 bhm

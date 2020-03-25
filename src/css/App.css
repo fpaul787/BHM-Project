@@ -1,295 +1,186 @@
 body {
-  background-color: #1d0c0c;
-}
+  background-color: #1d0c0c; }
 
 .App-header {
   color: green;
   font-size: 2em;
-  text-align: center;
-}
+  text-align: center; }
 
 /* #region cards slider */
 .cards-slider-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: absolute;
-  -webkit-transition: -webkit-transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  transition: -webkit-transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955), -webkit-transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
-}
-
-.cards-slider-wrapper .card {
-  min-width: 250px;
-  opacity: 0.5;
-  -webkit-transform: scale(0.7);
-          transform: scale(0.7);
-  -webkit-transition: opacity 300ms linear, -webkit-transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  transition: opacity 300ms linear, -webkit-transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  transition: opacity 300ms linear, transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  transition: opacity 300ms linear, transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955), -webkit-transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
-}
-
-.cards-slider-wrapper h2 {
-  color: green;
-  font-size: small;
-}
-
-.cards-slider-wrapper h3 {
-  color: #1d0c0c;
-}
-
-.cards-slider-wrapper a {
-  color: #1d0c0c;
-}
+  transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+  .cards-slider-wrapper .card {
+    min-width: 250px;
+    opacity: 0.5;
+    transform: scale(0.7);
+    transition: opacity 300ms linear, transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+  .cards-slider-wrapper h2 {
+    color: green;
+    font-size: small; }
+  .cards-slider-wrapper h3 {
+    color: #1d0c0c; }
+  .cards-slider-wrapper a {
+    color: #1d0c0c; }
 
 .cards-slider.active-slide-0 #card-0 {
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  overflow: auto;
-}
-
-.cards-slider.active-slide-0 #card-0 .name {
-  color: white;
-  font-size: x-large;
-}
-
-.cards-slider.active-slide-0 #card-0 .bio {
-  color: white;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.cards-slider.active-slide-0 #card-0 h4 {
-  color: orange;
-  font-size: large;
-}
-
-.cards-slider.active-slide-0 #card-0 .more-info {
-  color: red;
-  font-size: x-large;
-}
+  transform: scale(1);
+  overflow: auto; }
+  .cards-slider.active-slide-0 #card-0 .name {
+    color: white;
+    font-size: x-large; }
+  .cards-slider.active-slide-0 #card-0 .bio {
+    color: white;
+    font-family: "Times New Roman", Times, serif; }
+  .cards-slider.active-slide-0 #card-0 h4 {
+    color: orange;
+    font-size: large; }
+  .cards-slider.active-slide-0 #card-0 .more-info {
+    color: red;
+    font-size: x-large; }
 
 .cards-slider.active-slide-1 #card-1 {
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  overflow: auto;
-}
-
-.cards-slider.active-slide-1 #card-1 .name {
-  color: white;
-  font-size: x-large;
-}
-
-.cards-slider.active-slide-1 #card-1 .bio {
-  color: white;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.cards-slider.active-slide-1 #card-1 h4 {
-  color: orange;
-  font-size: large;
-}
-
-.cards-slider.active-slide-1 #card-1 .more-info {
-  color: red;
-  font-size: x-large;
-}
+  transform: scale(1);
+  overflow: auto; }
+  .cards-slider.active-slide-1 #card-1 .name {
+    color: white;
+    font-size: x-large; }
+  .cards-slider.active-slide-1 #card-1 .bio {
+    color: white;
+    font-family: "Times New Roman", Times, serif; }
+  .cards-slider.active-slide-1 #card-1 h4 {
+    color: orange;
+    font-size: large; }
+  .cards-slider.active-slide-1 #card-1 .more-info {
+    color: red;
+    font-size: x-large; }
 
 .cards-slider.active-slide-2 #card-2 {
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  overflow: auto;
-}
-
-.cards-slider.active-slide-2 #card-2 .name {
-  color: white;
-  font-size: x-large;
-}
-
-.cards-slider.active-slide-2 #card-2 .bio {
-  color: white;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.cards-slider.active-slide-2 #card-2 h4 {
-  color: orange;
-  font-size: large;
-}
-
-.cards-slider.active-slide-2 #card-2 .more-info {
-  color: red;
-  font-size: x-large;
-}
+  transform: scale(1);
+  overflow: auto; }
+  .cards-slider.active-slide-2 #card-2 .name {
+    color: white;
+    font-size: x-large; }
+  .cards-slider.active-slide-2 #card-2 .bio {
+    color: white;
+    font-family: "Times New Roman", Times, serif; }
+  .cards-slider.active-slide-2 #card-2 h4 {
+    color: orange;
+    font-size: large; }
+  .cards-slider.active-slide-2 #card-2 .more-info {
+    color: red;
+    font-size: x-large; }
 
 .cards-slider.active-slide-3 #card-3 {
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  overflow: auto;
-}
-
-.cards-slider.active-slide-3 #card-3 .name {
-  color: white;
-  font-size: x-large;
-}
-
-.cards-slider.active-slide-3 #card-3 .bio {
-  color: white;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.cards-slider.active-slide-3 #card-3 h4 {
-  color: orange;
-  font-size: large;
-}
-
-.cards-slider.active-slide-3 #card-3 .more-info {
-  color: red;
-  font-size: x-large;
-}
+  transform: scale(1);
+  overflow: auto; }
+  .cards-slider.active-slide-3 #card-3 .name {
+    color: white;
+    font-size: x-large; }
+  .cards-slider.active-slide-3 #card-3 .bio {
+    color: white;
+    font-family: "Times New Roman", Times, serif; }
+  .cards-slider.active-slide-3 #card-3 h4 {
+    color: orange;
+    font-size: large; }
+  .cards-slider.active-slide-3 #card-3 .more-info {
+    color: red;
+    font-size: x-large; }
 
 .cards-slider.active-slide-4 #card-4 {
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  overflow: auto;
-}
-
-.cards-slider.active-slide-4 #card-4 .name {
-  color: white;
-  font-size: x-large;
-}
-
-.cards-slider.active-slide-4 #card-4 .bio {
-  color: white;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.cards-slider.active-slide-4 #card-4 h4 {
-  color: orange;
-  font-size: large;
-}
-
-.cards-slider.active-slide-4 #card-4 .more-info {
-  color: red;
-  font-size: x-large;
-}
+  transform: scale(1);
+  overflow: auto; }
+  .cards-slider.active-slide-4 #card-4 .name {
+    color: white;
+    font-size: x-large; }
+  .cards-slider.active-slide-4 #card-4 .bio {
+    color: white;
+    font-family: "Times New Roman", Times, serif; }
+  .cards-slider.active-slide-4 #card-4 h4 {
+    color: orange;
+    font-size: large; }
+  .cards-slider.active-slide-4 #card-4 .more-info {
+    color: red;
+    font-size: x-large; }
 
 .cards-slider.active-slide-5 #card-5 {
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  overflow: auto;
-}
-
-.cards-slider.active-slide-5 #card-5 .name {
-  color: white;
-  font-size: x-large;
-}
-
-.cards-slider.active-slide-5 #card-5 .bio {
-  color: white;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.cards-slider.active-slide-5 #card-5 h4 {
-  color: orange;
-  font-size: large;
-}
-
-.cards-slider.active-slide-5 #card-5 .more-info {
-  color: red;
-  font-size: x-large;
-}
+  transform: scale(1);
+  overflow: auto; }
+  .cards-slider.active-slide-5 #card-5 .name {
+    color: white;
+    font-size: x-large; }
+  .cards-slider.active-slide-5 #card-5 .bio {
+    color: white;
+    font-family: "Times New Roman", Times, serif; }
+  .cards-slider.active-slide-5 #card-5 h4 {
+    color: orange;
+    font-size: large; }
+  .cards-slider.active-slide-5 #card-5 .more-info {
+    color: red;
+    font-size: x-large; }
 
 .cards-slider.active-slide-6 #card-6 {
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  overflow: auto;
-}
-
-.cards-slider.active-slide-6 #card-6 .name {
-  color: white;
-  font-size: x-large;
-}
-
-.cards-slider.active-slide-6 #card-6 .bio {
-  color: white;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.cards-slider.active-slide-6 #card-6 h4 {
-  color: orange;
-  font-size: large;
-}
-
-.cards-slider.active-slide-6 #card-6 .more-info {
-  color: red;
-  font-size: x-large;
-}
+  transform: scale(1);
+  overflow: auto; }
+  .cards-slider.active-slide-6 #card-6 .name {
+    color: white;
+    font-size: x-large; }
+  .cards-slider.active-slide-6 #card-6 .bio {
+    color: white;
+    font-family: "Times New Roman", Times, serif; }
+  .cards-slider.active-slide-6 #card-6 h4 {
+    color: orange;
+    font-size: large; }
+  .cards-slider.active-slide-6 #card-6 .more-info {
+    color: red;
+    font-size: x-large; }
 
 /* stretch cards next to each other*/
 .cards-slider {
   position: relative;
   max-width: 226px;
-  margin: auto auto;
-}
-
-.cards-slider:after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 250px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.cards-slider img {
-  width: 100%;
-  height: auto;
-}
+  margin: auto auto; }
+  .cards-slider:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .cards-slider img {
+    width: 100%;
+    height: auto; }
 
 .nav-buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.nav-buttons button {
-  display: inline-block;
-  padding: 0.3em 1.2em;
-  margin: 0 0.3em 0.3em 0;
-  border-radius: 2em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: medium;
-  color: black;
-  background-color: green;
-  text-align: center;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.nav-buttons button:hover {
-  background-color: white;
-  border-color: white;
-}
-
-.nav-buttons button:disabled {
-  background: transparent;
-  border: none !important;
-  font-size: 0;
-}
-/*# sourceMappingURL=App.css.map */
+  justify-content: center; }
+  .nav-buttons button {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    color: black;
+    background-color: green;
+    text-align: center;
+    transition: all 0.2s; }
+  .nav-buttons button:hover {
+    background-color: white;
+    border-color: white; }
+  .nav-buttons button:disabled {
+    background: transparent;
+    border: none !important;
+    font-size: 0; }
