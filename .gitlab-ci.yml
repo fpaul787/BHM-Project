@@ -18,7 +18,7 @@ test website:
     - npm install # install npm in docker image
     - npm run start &
     - sleep 15
-    - curl "http://localhost:3000" | tac | tac| grep -q "React"
+    - curl "http://localhost:3000" | tac | tac| grep -q "Prominent Black Women"
 
 build website:
   stage: build
