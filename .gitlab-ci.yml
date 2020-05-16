@@ -18,3 +18,32 @@ test website:
     - npm run start &
     - sleep 15
     - curl "http://localhost:3000" | tac | tac| grep -q "React"
+
+build website:
+  stage: build
+  script: 
+    - npm install
+    - npm install -g create-react-app
+    - npm run build
+  artifacts: 
+      paths:
+        - ./build
+
+      #   test artifact:
+      #     image: alpine
+      #     stage: test
+      #     script:
+      #       - grep -q "React" ./build/index.html
+      
+      # test website:
+      #     stage: test
+      #     script:
+      #       - npm install
+      #       - npm install -g create-react-app 
+      #       - npm start &
+      #       - sleep 5 #not the smartest way to do it because it will always wait 5 seconds, despite how fast server is
+      #       - curl "http://localhost:3000" | tac | tac | grep -q "React"
+            
+      # # deploy to heroku:
+      # #     state: deploy
+      # #     script:
