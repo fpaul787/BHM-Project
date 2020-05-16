@@ -2,17 +2,9 @@ image: node:10 #default node image
 
 #stages
 stages:
-  - test
   - build
+  - test
   - deploy staging
-
-test website:
-  stage: test
-  script:
-    - npm install # install npm in docker image
-    - npm run start &
-    - sleep 15
-    - curl "http://localhost:3000" | tac | tac| grep -q "Prominent Black Women"
 
 build website:
   stage: build
@@ -29,7 +21,15 @@ test artifact:
   stage: test
   cache: {}
   script:
-    - grep -q "React" ./build/index.html
+    - grep -q "Prominent Black Women" ./build/index.html
+
+test website:
+  stage: test
+  script:
+    - npm install # install npm in docker image
+    - npm run start &
+    - sleep 15
+    - curl "http://localhost:3000" | tac | tac| grep -q "Prominent Black Women"
       
 # test website:
 #     stage: test
