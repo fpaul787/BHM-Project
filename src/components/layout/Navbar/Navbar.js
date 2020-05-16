@@ -1,11 +1,10 @@
 import React from 'react'
 
+
 const Navbar = () => {
     return (
-        <div>
-            <ul>
-                <li>Home</li>
-            </ul>
+        <div style={{color: 'white', textAlign: 'center'}}>
+            <h3>Home</h3>
         </div>
     )
 }

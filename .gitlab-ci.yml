@@ -4,13 +4,7 @@ image: node:10 #default node image
 stages:
   - test
   - build
-
-
-# demo_job_1:
-#   stage: test
-#   script:
-#     - echo Hello World
-
+  - deploy staging
 
 test website:
   stage: test
@@ -30,21 +24,22 @@ build website:
       paths:
         - ./build
 
-      #   test artifact:
-      #     image: alpine
-      #     stage: test
-      #     script:
-      #       - grep -q "React" ./build/index.html
+test artifact:
+  image: alpine
+  stage: test
+  cache: {}
+  script:
+    - grep -q "React" ./build/index.html
       
-      # test website:
-      #     stage: test
-      #     script:
-      #       - npm install
-      #       - npm install -g create-react-app 
-      #       - npm start &
-      #       - sleep 5 #not the smartest way to do it because it will always wait 5 seconds, despite how fast server is
-      #       - curl "http://localhost:3000" | tac | tac | grep -q "React"
-            
-      # # deploy to heroku:
-      # #     state: deploy
-      # #     script:
+# test website:
+#     stage: test
+#     script:
+#       - npm install
+#       - npm install -g create-react-app 
+#       - npm start &
+#       - sleep 5 #not the smartest way to do it because it will always wait 5 seconds, despite how fast server is
+#       - curl "http://localhost:3000" | tac | tac | grep -q "React"
+      
+# # deploy to heroku:
+# #     state: deploy
+# #     script:

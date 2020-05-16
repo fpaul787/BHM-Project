@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './css/App.css';
 //import Card from './components/Card/Card'
-import {Card} from './components/exports'
+import {Card, Navbar} from './components/exports'
 
 import data from './data/data.json'
 
@@ -29,9 +29,11 @@ const App = () => {
 
   return (
     
+    <div>
+    <Navbar/>
     
     <div >      
-
+      
       <div className="nav-buttons">
       <button onClick={prevProperty}
         disabled={Number(property.index) === 0}>Previous</button> 
@@ -61,6 +63,7 @@ const App = () => {
         </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
