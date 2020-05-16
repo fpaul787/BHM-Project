@@ -40,7 +40,7 @@ deploy review:
       name: review/$CI_COMMIT_REF_NAME
       url: https://greengreeniceisbetter-$CI_ENVIRONMENT_SLUG.surge.sh
   script:
-    - npm install --global  
+    - npm install --global surge
     - surge --project ./public --domain greeniceisbetter-$CI_ENVIRONMENT_SLUG.surge.sh
       
 # # deploy to heroku:
