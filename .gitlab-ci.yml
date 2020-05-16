@@ -4,6 +4,7 @@ image: node:10 #default node image
 stages:
   - build
   - test
+  - deploy review
   - deploy staging
 
 build website:
@@ -31,14 +32,16 @@ test website:
     - sleep 15
     - curl "http://localhost:3000" | tac | tac| grep -q "Prominent Black Women"
       
-# test website:
-#     stage: test
-#     script:
-#       - npm install
-#       - npm install -g create-react-app 
-#       - npm start &
-#       - sleep 5 #not the smartest way to do it because it will always wait 5 seconds, despite how fast server is
-#       - curl "http://localhost:3000" | tac | tac | grep -q "React"
+deploy review:
+  stage: deploy review
+  only:
+    - merge_requests
+  environment:
+      name: review/$CI_COMMIT_REF_NAME
+      url: https://greeniceisbetter-$CI_ENVIRONMENT_SLUG.surge.sh
+  script:
+    - npm install --global surge
+    - surge --project ./public --domain greeniceisbetter-$CI_ENVIRONMENT_SLUG.surge.sh
       
 # # deploy to heroku:
 # #     state: deploy
